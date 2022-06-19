@@ -1,0 +1,58 @@
+section{
+    margin: 2rem;
+}
+body{
+    background-color: #6d6875;
+    width: 100%;
+}
+main{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.container h2{
+    color: #e5989b;
+    font-size: 8vh;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+.container h1 {
+    color: #ffcdb2;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+/*navbar*/
+.nav li{
+    padding: 1.5rem;
+}
+.nav-item a{
+    color: #ffcdb2;
+}
+ 
+/* introduction*/
+#intro{
+    min-height: 100vh;
+}
+#intro h3{
+    color: #b5838d;
+    font-size: 8vh;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+#intro h1{
+    color: #ffb4a2;
+    font-size: 20vh;
+    margin: 0;
+}
+/* projects */
+#projects p{
+    color:#ffb4a2 ;
+    text-align: center;
+}
+
+.line{
+    border-bottom: 25px solid #ffb4a2;
+}
