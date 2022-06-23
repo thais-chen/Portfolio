@@ -1,0 +1,28 @@
+header{
+    background-color: #e5989b;
+    margin-bottom: 3rem;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-weight: 600;
+}
+h1{
+font-weight: 800;
+padding: 15px;
+font-size: 6rem;
+}
+body{
+    background-color: #FFFFFF;
+}
+.container div{
+    margin: 2rem;
+}
+.container{
+    padding: ;
+}
+.setting-prob{
+    background-color: #e5989b23;
+}
+ 

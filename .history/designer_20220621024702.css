@@ -1,0 +1,31 @@
+header{
+    background-color: #e5989b;
+ 
+}
+ul{
+    list-style: none;
+}
+li{
+    font-weight: 600;
+}
+h1{
+font-weight: 800;
+font-size: 6rem;
+}
+body{
+    background-color: #FFFFFF;
+}
+.container div{
+    padding: 2rem;
+}
+ 
+.bg{
+    background-color: #9b313523;
+}
+p{
+   font-size: large;
+}
+.process{
+    background-color:  #e5989b23;
+}
+ 

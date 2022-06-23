@@ -1,0 +1,61 @@
+header{
+
+}
+ul{
+    list-style: none;
+}
+li{
+    font-weight: 600;
+}
+h1{
+font-weight: 800;
+font-size: 6rem;
+}
+body{
+     background-color: #000000de;
+
+}
+.container div{
+    padding: 2rem;
+}
+ 
+.bg{
+    background-color: #e5989b23;
+}
+
+p{
+   font-size: large;
+}
+.process{
+    background-color:  #ffcdb2;
+}
+ 
+.container{
+    margin-top: 2rem;
+}
+img{
+    padding: 2rem;
+}
+/*navbar*/
+.nav li{
+    padding: 1.5rem;
+}
+ 
+a:link {  color: #ffcdb2; text-decoration: none;}
+
+
+a:visited {  color: #ffcdb2; text-decoration: none; }
+
+
+a:hover {
+  color: white;
+}
+ 
+.setting-prob{
+    background-color: #ffaeae52;
+}
+.protobg{
+   
+        background-color: #ffffff7e;
+    
+}
