@@ -2,9 +2,10 @@
   font-family: 'Hellosty Blast';
   src: url(Fonts/HellostyBlast-1G8Y2.ttf)
 }
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Great+Vibes&family=Kanit&family=Rokkitt:wght@500&family=Space+Mono&display=swap');
 
 section{
-    margin: 2rem;
+    
         transition: transform 250ms;
         transition-timing-function: linear;
       
@@ -75,11 +76,49 @@ h5{
     text-align: center;
     
 }
+.row{
+  margin-bottom: 1rem;
+}
 /*navbar*/
 .nav li{
     padding: 1.5rem;
 }
+/*hamburger*/
+
+/* @media screen and (max-width:470px) {
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+}
+.closeIcon {
+  display: none;
+}
+.nav{
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: black;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+}
+.showMenu {
+  transform: translateY(0);
+}
  
+} */
+
  
 /* introduction*/
 #intro{
@@ -100,6 +139,46 @@ h5{
     font-family: 'Hellosty Blast';
 }
 
+.heading-row{
+  display: flex;
+  justify-content: flex-start;
+}
+.heading-line{
+
+  height: 50%;
+  border-bottom:1px solid #bbb;
+   
+}
+/*project*/
+.proj-heading h1{
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+}
+ 
+.proj-skill ol{
+  list-style: none;
+  color: palevioletred;
+  justify-content: center;
+
+  
+  
+ 
+}
+.proj-skill li {
+  float: left;
+  padding: 5px;
+  background-color: beige;
+  margin: 5px;
+  border-radius: 25%;
+  
+}
+
+ .knk {
+  padding: 0;
+ }
+.img-fluid{
+  width: 100%;
+}
 /*scroll animation */ 
 
 @media screen and (min-width:470px) {
@@ -147,6 +226,7 @@ h5{
  } 
 
 }
+ 
 
 .line{
   border-bottom: 2px solid #ffb4a2;
@@ -173,29 +253,4 @@ h5{
       opacity: 1;
     }
   }
-
-
-
-@media screen and (min-width:470px) {
-
-  /*overlay*/
-.overlay-wrap{
-  height: 600px;
-  width: 500px;
-  
-}
-.overlay-wrap img{
-  height: 100%; 
-  width: 100%;
-    object-fit: contain;
-}
- /*knk div */
-.knk{
-  width: 100%;
-  height:800px;
-}  
-.knk img{
-  width: 100%;
-  
-}
-}
+ 
