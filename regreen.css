@@ -1,8 +1,10 @@
 li,p {
     color: rgb(0, 0, 0);
+    font-family: sans-serif;
 }
 .primary li{
     color: rgb(0, 0, 0);
+    font-family: sans-serif;
 }
 .container{
     background-color: #ffcdb2;
@@ -18,6 +20,10 @@ li,p {
      height: 500px;
    
 }
+.interview-row{
+  background-color: floralwhite;
+} 
+
 img { max-width: 100%; height: auto; }
  
 @media screen and (max-width: 450px) {
