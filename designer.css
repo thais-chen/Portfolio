@@ -7,6 +7,7 @@ ul{
 li{
     font-weight: 400;
 }
+  
 @media screen and(min-width:470px) {
     h1{
         font-weight: 800;
@@ -20,6 +21,9 @@ li{
             border-width: 2px;
             border-color: #ffcdb2;
         }
+        .nav{
+            display: none;
+           }
 }
 h1{
     font-weight: 800;

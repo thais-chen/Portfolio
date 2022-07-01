@@ -34,7 +34,9 @@ main{
 }
 a:link {  color: #ffcdb2; text-decoration: none;}
 
-
+a{
+  color: #ffcdb2;
+}
 a:visited {  color: #ffcdb2; text-decoration: none; }
 
 
@@ -47,6 +49,9 @@ h5{
     color: white;
     padding-top: 1rem;
     
+}
+h1{
+  font-family: 'Space Mono', monospace;
 }
 
 .container h2{
@@ -69,6 +74,7 @@ h5{
     margin-bottom: 0;
     font-weight: 100;
     padding-bottom: 1rem;
+    padding-top: 5px;
    
 }
 .container p {
@@ -83,6 +89,12 @@ h5{
 .nav li{
     padding: 1.5rem;
 }
+@media screen and (max-width:450px) {
+ .menu{
+  display: none;
+ }
+}
+ 
 /*hamburger*/
 
 /* @media screen and (max-width:470px) {
@@ -154,20 +166,20 @@ h5{
   text-align: center;
   font-family: 'Space Mono', monospace;
 }
+
  
 .proj-skill ol{
   list-style: none;
-  color: palevioletred;
-  justify-content: center;
+   justify-content: center;
 
   
   
  
 }
+ 
 .proj-skill li {
   float: left;
   padding: 5px;
-  background-color: beige;
   margin: 5px;
   border-radius: 25%;
   
@@ -176,9 +188,7 @@ h5{
  .knk {
   padding: 0;
  }
-.img-fluid{
-  width: 100%;
-}
+ 
 /*scroll animation */ 
 
 @media screen and (min-width:470px) {
@@ -227,11 +237,6 @@ h5{
 
 }
  
-
-.line{
-  border-bottom: 2px solid #ffb4a2;
-  border-width: 0.5px;
-}
 /*animation*/
 .reveal {
     position: relative;

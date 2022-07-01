@@ -1,6 +1,32 @@
 li,p {
-    color: wheat;
+    color: rgb(0, 0, 0);
 }
 .primary li{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+.container{
+    background-color: #ffcdb2;
+}
+.primary ul{
+    list-style: none;
+}
+.primary{
+    background-color: #fcf4f080;
+}
+
+.design-process{
+     height: 500px;
+   
+}
+img { max-width: 100%; height: auto; }
+ 
+@media screen and (max-width: 450px) {
+  .container{
+    padding: 1rem;
+    width: 100vw;
+  }
+  .col-sm img{
+    max-width: 80vw;
+  }
+    
 }
