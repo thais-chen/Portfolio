@@ -4,51 +4,66 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Great+Vibes&family=Kanit&family=Rokkitt:wght@500&family=Space+Mono&display=swap');
 
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e5989b;
+  border-radius: 20px;
+
+}
+
+
 section{
-    
+
         transition: transform 250ms;
         transition-timing-function: linear;
-      
+
 }
 body{
     background-color: #000000de;
     width: 100%;
-    
+
 }
 hr{
   color: rgb(248, 248, 248);
 }
-::-webkit-scrollbar {
-  width: 5px;
-}
- 
-::-webkit-scrollbar-thumb {
-  background-color: #e5989b;
-  border-radius: 20px;
-  
-}
- 
+
 main{
     width: 100%;
     margin: 0px auto;
 }
-a:link {  color: #ffcdb2; text-decoration: none;}
 
-a{
-  color: #ffcdb2;
+.nav-item{
+    padding: 1.5rem;
 }
-a:visited {  color: #ffcdb2; text-decoration: none; }
+nav{
+
+    margin-bottom: 1rem;
+    height: 100px;
+
+}
+a:link {  color: #e5989b;text-decoration: none;}
 
 
+a:visited {  color: #e5989b; text-decoration: none; }
+
+a {
+    color: #e5989b;
+    font-weight: 400;
+    font-size: large;
+}
 a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
 }
- 
+
+
 h5{
     text-align: center;
     color: white;
     padding-top: 1rem;
-    
+
 }
 h1{
   font-family: 'Space Mono', monospace;
@@ -59,8 +74,8 @@ h1{
     font-size: 8vh;
     margin-bottom: 0;
     font-weight: 100;
-    
-   
+
+
 }
 .container h4{
   color: #e5989b;
@@ -75,26 +90,32 @@ h1{
     font-weight: 100;
     padding-bottom: 1rem;
     padding-top: 5px;
-   
+
 }
 .container p {
     color:#e5989b ;
     text-align: center;
-    
+
 }
 .row{
   margin-bottom: 1rem;
 }
 /*navbar*/
-.nav li{
+ li{
     padding: 1.5rem;
+    font-weight: 400;
+
+}
+  p {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
 }
 @media screen and (max-width:450px) {
  .menu{
   display: none;
  }
 }
- 
+
 /*hamburger*/
 
 /* @media screen and (max-width:470px) {
@@ -128,15 +149,15 @@ h1{
 .showMenu {
   transform: translateY(0);
 }
- 
+
 } */
 
- 
+
 /* introduction*/
 #intro{
     min-height: 100vh;
     text-align: center;
-    
+
 }
 #intro h3{
     color: #b5838d;
@@ -159,7 +180,7 @@ h1{
 
   height: 50%;
   border-bottom:1px solid #bbb;
-   
+
 }
 /*project*/
 .proj-heading h1{
@@ -167,32 +188,32 @@ h1{
   font-family: 'Space Mono', monospace;
 }
 
- 
+
 .proj-skill ol{
   list-style: none;
    justify-content: center;
 
-  
-  
- 
+
+
+
 }
- 
+
 .proj-skill li {
   float: left;
   padding: 5px;
   margin: 5px;
   border-radius: 25%;
-  
+
 }
 
  .knk {
   padding: 0;
  }
- 
-/*scroll animation */ 
+
+/*scroll animation */
 
 @media screen and (min-width:470px) {
-  
+
 
  .scroll{
     position:absolute;
@@ -202,7 +223,7 @@ h1{
     right:25%;
     left:50%;
     margin-left:-40px;
-  
+
  }
  .scroll span{
   display: block;
@@ -211,7 +232,7 @@ h1{
   border-bottom: 1px solid #fff;
   border-right: 1px solid#fff;
   transform: rotate(45deg);
- 
+
   animation: animate 2s infinite ;
  }
  @keyframes animate {
@@ -225,18 +246,18 @@ h1{
     opacity: 0;
   }
  }
- 
+
  .scroll span:nth-child(1){
-  animation-delay: -0.2s;  
+  animation-delay: -0.2s;
  }
 
  .scroll span:nth-child(2){
   animation-delay: -0.4s;
- 
- } 
+
+ }
 
 }
- 
+
 /*animation*/
 .reveal {
     position: relative;
@@ -258,4 +279,3 @@ h1{
       opacity: 1;
     }
   }
- 

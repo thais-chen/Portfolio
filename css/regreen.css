@@ -1,4 +1,13 @@
-li,p {
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 20px;
+
+}
+ p {
     color: rgb(0, 0, 0);
     font-family: sans-serif;
     font-size: large;
@@ -23,6 +32,17 @@ li,p {
 {.menu{ display: none;}
 
 }
+.cont-color{
+
+    background-color: #fcf4f080;
+
+}
+.process {
+  border-style: solid;
+  border-width: 1px;
+
+}
+
 .design-process{
      height: 500px;
 
@@ -31,8 +51,22 @@ li,p {
   margin: auto;
 }
 .interview-row{
-  background-color: floralwhite;
+
   line-height: 2rem;
+}
+.challenge{
+  background-color: white;
+  margin-top: 1rem;
+
+}
+.logo{
+  position: absolute;
+   left:0;
+   padding-left: 2rem;
+   padding-top: 0.5rem;
+
+ }
+.logo img{ height: 100px;
 }
 
 img { max-width: 100%; height: auto; }
