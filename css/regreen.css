@@ -1,6 +1,7 @@
 li,p {
     color: rgb(0, 0, 0);
     font-family: sans-serif;
+    font-size: large;
 }
 .primary li{
     color: rgb(0, 0, 0);
@@ -15,17 +16,27 @@ li,p {
 .primary{
     background-color: #fcf4f080;
 }
+.hiDir{
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 450px)
+{.menu{ display: none;}
 
+}
 .design-process{
      height: 500px;
-   
+
+}
+.container > div {
+  margin: auto;
 }
 .interview-row{
   background-color: floralwhite;
-} 
+  line-height: 2rem;
+}
 
 img { max-width: 100%; height: auto; }
- 
+
 @media screen and (max-width: 450px) {
   .container{
     padding: 1rem;
@@ -34,5 +45,13 @@ img { max-width: 100%; height: auto; }
   .col-sm img{
     max-width: 80vw;
   }
-    
+  .challenge{
+    flex-direction: column;
+  }
+  footer{
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color:   #ffcdb2;
+
+  }
 }
