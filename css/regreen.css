@@ -17,14 +17,13 @@
     font-family: sans-serif;
 }
 .container{
-    background-color: #ffcdb2;
+    background-color: #fbf0e8;
 }
 .primary ul{
     list-style: none;
 }
 .primary{
-    background-color: #fcf4f080;
-}
+  background-color: #ffcdb2;}
 .hiDir{
   flex-direction: row-reverse;
 }
@@ -34,7 +33,7 @@
 }
 .cont-color{
 
-    background-color: #fcf4f080;
+    background-color: #ffffff;
 
 }
 .process {
@@ -58,6 +57,13 @@
   background-color: white;
   margin-top: 1rem;
 
+
+}
+.textStyle{
+  font-size: large;
+  padding-top: 1rem;
+  font-weight: 400;
+  font-family: sans-serif;
 }
 .logo{
   position: absolute;
@@ -66,7 +72,7 @@
    padding-top: 0.5rem;
 
  }
-.logo img{ height: 100px;
+.logo img{ height: 85px;
 }
 
 img { max-width: 100%; height: auto; }
@@ -85,7 +91,7 @@ img { max-width: 100%; height: auto; }
   footer{
     height: 100px;
     background-repeat: no-repeat;
-    background-color:   #ffcdb2;
+
 
   }
 }

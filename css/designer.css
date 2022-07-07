@@ -29,19 +29,18 @@ ul{
             border-width: 2px;
             border-color: #ffcdb2;
         }
-        .nav{
-            display: none;
-           }
+
 }
 h1{
     font-weight: 800;
     font-size: 3rem;
 }
 body{
-     background-color: #ffcdb2;
+     background-color: #ffebe1c7;
 
 }.container{
-    padding: 0;
+    padding: 1rem;
+    width: 100vw;
 }
 .container div {
     padding: 1rem
@@ -90,7 +89,7 @@ footer > img {
 
    }
   .logo img{
-    height: 100px;
+    height: 85px;
 
   }
 
@@ -121,12 +120,16 @@ a:hover {
     background-color: #ffffffbf;
 }
 @media screen and (max-width: 450px)
-{.menu { display: none;}
+{
+nav{
+        display: none;
+       }
+
 footer{
     height: 100px;
 
     background-repeat: no-repeat;
-    background-color:   #ffcdb2;
+   
 
   }
 
@@ -134,10 +137,14 @@ footer{
 
 .protobg{
 
-        background-color: #ffffff7e;
+        background-color: #ffffff;
 
             display: flex;
             flex-direction: column;
 
 
+}
+.discordImg{
+    display: block;
+    text-align: center;
 }

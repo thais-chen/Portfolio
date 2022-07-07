@@ -111,7 +111,7 @@ h1{
   font-family: sans-serif;
 }
 @media screen and (max-width:450px) {
- .menu{
+ nav{
   display: none;
  }
 }
