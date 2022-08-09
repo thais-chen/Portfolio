@@ -31,9 +31,9 @@ section{
 
 }
 body{
-    background-color: #000000de;
+    background-color: #1d0404;
     width: 100%;
-    background-image: url("/images/Meteor.svg");
+
     background-repeat: repeat-y;
     background-size:contain;
 
@@ -113,6 +113,14 @@ h1{
 .row{
   margin-bottom: 1rem;
 }
+.work{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
 /*navbar*/
 .logo{
   position: absolute;
@@ -153,41 +161,8 @@ nav{
  }
 }
 
-/*hamburger*/
 
-/* @media screen and (max-width:470px) {
-.hamburger {
-  position: fixed;
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  padding: 4px;
-  border: black solid 1px;
-  background: white;
-  cursor: pointer;
-}
-.closeIcon {
-  display: none;
-}
-.nav{
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background: black;
-  color: white;
-  list-style: none;
-  padding-top: 4rem;
-}
-.showMenu {
-  transform: translateY(0);
-}
 
-} */
 
 
 /* introduction*/
@@ -234,21 +209,21 @@ nav{
 
 
 }
-
+.skill{
+  font-weight: 700;
+}
 .proj-skill li {
   float: left;
   padding: 5px;
   margin: 5px;
-  border-radius: 25%;
 
 }
 
  .knk {
   padding: 0;
+margin-top: 3rem;
  }
-.img-fluid{
-  max-height: 400px;
-}
+
 /*scroll animation */
 
 @media screen and (min-width:470px) {
@@ -318,3 +293,6 @@ nav{
       opacity: 1;
     }
   }
+.about{
+  margin-top: 5rem;
+}

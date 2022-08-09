@@ -4,7 +4,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #490000;
     border-radius: 20px;
 
   }
@@ -16,7 +16,7 @@ ul{
 }
 
 body{
-    background-image: url("/images/Meteor.svg");
+    background-color: #1d0404;
 
   }
 @media screen and(min-width:470px) {
@@ -109,18 +109,21 @@ nav{
     letter-spacing: 1px;
     height: 110px;
  }
- a:link {  color: #e5989b;text-decoration: none;}
+ a:link {
+       color: #490000;text-decoration: none;}
 
 
- a:visited {  color: #e5989b; text-decoration: none; }
+ a:visited {
+       color: #490000; text-decoration: none; }
 
  a {
-     color: #e5989b;
+       color: #490000;
+
      font-weight: 400;
      font-size: large;
  }
  a:hover {
-   color: rgb(255, 255, 255);
+ color: #e5989b;
  }
 
 .setting-prob{
