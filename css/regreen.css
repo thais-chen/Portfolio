@@ -2,106 +2,109 @@
   width: 9px;
 }
 
-  ::-webkit-scrollbar-thumb {
-    background-color: #490000;
-    border-radius: 20px;
-
-  }
-body{
+::-webkit-scrollbar-thumb {
+  background-color: #490000;
+  border-radius: 20px;
+}
+body {
   width: 90vw;
   margin: auto;
 }
- p {
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    font-size: large;
+p {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: large;
 }
-.primary li{
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
+.primary li {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
 }
-.container{
-    background-color: #fbf0e8;
-    ;
+.container {
+  background-color: #fbf0e8;
 }
-.persona-ul{
-     color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    font-size: large;
+.persona-ul {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: large;
 }
-.primary ul{
-    list-style: none;
+.primary ul {
+  list-style: none;
 }
-.primary{
-  background-color: #ffcdb2;}
-.hiDir{
+.primary {
+  background-color: #ffcdb2;
+}
+.hiDir {
   flex-direction: row-reverse;
 }
-@media screen and (max-width: 450px)
-{.menu{ display: none;}
-
+@media screen and (max-width: 450px) {
+  .menu {
+    display: none;
+  }
 }
-.cont-color{
-
-    background-color: #ffffff;
-
+.cont-color {
+  background-color: #ffffff;
 }
 .process {
   border-style: solid;
   border-width: 1px;
-
 }
 
-.design-process{
-     height: 500px;
-
+.design-process {
+  height: 500px;
 }
 .container > div {
   margin: auto;
 }
-.interview-row{
-
+.interview-row {
   line-height: 2rem;
 }
-.challenge{
+.challenge {
   background-color: white;
   margin-top: 1rem;
-
-
 }
-.textStyle{
+.comp {
+  font-size: large;
+}
+.traits{
+  border: #490000 solid 1px;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #debaba;
+}
+.textStyle {
   font-size: large;
   padding-top: 1rem;
   font-weight: 400;
   font-family: sans-serif;
 }
-.logo{
+.logo {
   position: absolute;
-   left:0;
-   padding-left: 2rem;
-   padding-top: 0.5rem;
-
- }
-.logo img{ height: 85px;
+  left: 0;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+}
+.logo img {
+  height: 85px;
 }
 
-img { max-width: 100%; height: auto; }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 450px) {
-  .container{
+  .container {
     padding: 1rem;
     width: 100vw;
   }
-  .col-sm img{
+  .col-sm img {
     max-width: 80vw;
   }
-  .challenge{
+  .challenge {
     flex-direction: column;
   }
-  footer{
+  footer {
     height: 100px;
     background-repeat: no-repeat;
-
-
   }
 }
