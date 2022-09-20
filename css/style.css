@@ -32,7 +32,7 @@ section{
 }
 body{
     background-color: #1d0404;
-    width: 80vw;
+    width: 90vw;
     margin: 0 auto;
 
     background-repeat: repeat-y;
@@ -123,7 +123,7 @@ h1{
     margin-bottom: 3rem;
 }
 /*navbar*/
- 
+
 
 .nav-item{
   padding: 1.5rem;

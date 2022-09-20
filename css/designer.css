@@ -9,7 +9,10 @@
 
   }
 
-
+  body{
+    width: 90vw;
+    margin: auto;
+  }
 ul{
     list-style: none;
     padding: 0;

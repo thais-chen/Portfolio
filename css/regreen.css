@@ -7,7 +7,10 @@
     border-radius: 20px;
 
   }
-
+body{
+  width: 90vw;
+  margin: auto;
+}
  p {
     color: rgb(0, 0, 0);
     font-family: sans-serif;
